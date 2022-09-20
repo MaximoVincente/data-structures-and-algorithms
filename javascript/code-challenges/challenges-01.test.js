@@ -92,7 +92,7 @@ const addValues = (arr, value) => {
 };
 const addNumbers = (num, arr, times, callback) => {
   arr = Array(times);
-  arr.fill(0);
+  arr.fill(num);
   arr.forEach(() => {
     arr.shift();
     callback(arr, num);
