@@ -215,8 +215,20 @@ const meetings = [
 ];
 
 const sortMeetingsByDay = (arr) => {
+  const week = {
+    'Monday': 1,
+    'Tuesday': 2,
+    'Wednesday':3,
+    'Thursday':
+
+    //Algorithm/Pseudo code
+    //a = new Meeting('Monday', '0900, '1000')
+    // a.dayOfWeek = 'Monday'
+    //week[a.dayOfWeek] = 1
+   //week[b.dayOfWeek] = 3
   return arr.sort((a,b) => {
 
+    }
   });
 };
 
@@ -231,7 +243,7 @@ You DO NOT need to use your solution to Challenge 12 in completing Challenge 13.
 ------------------------------------------------------------------------------------------------ */
 
 const sortSchedule = (arr) => {
-  // Solution code here...
+  return arr.sort((a, b) => a.start < b.start ? -1 : 1);
 };
 
 /* ------------------------------------------------------------------------------------------------
