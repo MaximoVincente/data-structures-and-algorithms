@@ -135,7 +135,6 @@ const reversedString = (str) => {
   return str.split('').reduce((prev, current) => current + prev, '');
 };
 
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
