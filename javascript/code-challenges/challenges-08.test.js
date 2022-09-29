@@ -108,7 +108,6 @@ const isCapitalized = (str) => {
   const newArray = str.match(/[A-Z][a-z]*/g);
   return newArray || [];
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -118,7 +117,6 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 const citiesAtoJ = (arr) => {
   return arr.filter(v => /^[A-J]/g.test(v));
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
 
