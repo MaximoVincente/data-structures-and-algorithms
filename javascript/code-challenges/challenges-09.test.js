@@ -1,5 +1,7 @@
 'use strict';
 
+const { children } = require("cheerio/lib/api/traversing");
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
@@ -40,7 +42,7 @@ Write a function named checkValues that takes in an object and a value and retur
 ------------------------------------------------------------------------------------------------ */
 
 const checkValues = (obj, value) => {
-  return Object.hasOwn(value, obj);
+  return Object.values(obj).includes(value);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -63,7 +65,9 @@ HR has asked you to change the data to make it easier to print so that it looks 
 ------------------------------------------------------------------------------------------------ */
 
 const updateNumbers = (obj) => {
-  return Object.entries(obj);
+  return Object.entries(obj).map((keyValue) =>{
+    return keyValue.join(': ');
+  });
 };
 
 
@@ -136,8 +140,13 @@ hasChildrenValues(characters, 'Sansa') will return false
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenValues = (arr, character) => {
-  return Object.hasOwn(arr === character.children);
-
+  let Children = false;
+  arr.map((v) => {
+    if (v.name === character && v.children) {
+      Children = true;
+    }
+  });
+  return Children;
 };
 
 /* ------------------------------------------------------------------------------------------------
