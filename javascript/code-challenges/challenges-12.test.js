@@ -7,6 +7,7 @@ Write a function named replaceZeros that, given a string, uses Regex to replace 
 ------------------------------------------------------------------------------------------------ */
 
 const replaceZeros = (string) => {
+  //Use replaceAll method
   return string.replaceAll('0', 'zero');
 };
 
@@ -21,7 +22,6 @@ If the PIN is four numerical digits long, return true. Otherwise, return false.
 const validatePin = (pin) => {
   return /^\d{4}$/.test(pin);
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -88,6 +88,7 @@ Return either true or false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePhoneNumber = (phoneNumber) => {
+  //Similar to REGEX email validation in class
   return /^(\d{3}|\(\d{3}\))[ -]?\d{3}[ -]?\d{4}$/.test(phoneNumber);
 };
 
