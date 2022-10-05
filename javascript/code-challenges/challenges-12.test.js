@@ -7,7 +7,7 @@ Write a function named replaceZeros that, given a string, uses Regex to replace 
 ------------------------------------------------------------------------------------------------ */
 
 const replaceZeros = (string) => {
-  //Use replaceAll method
+  //Use replace and not replaceAll method, or it will fail, regex must be used
   const replaceZero = /0/g;
   return string.replace(replaceZero, 'zero');
 };
