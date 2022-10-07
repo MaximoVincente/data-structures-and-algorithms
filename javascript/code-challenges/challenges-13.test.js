@@ -34,7 +34,13 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 ------------------------------------------------------------------------------------------------ */
 
 const findHappiness = (arr) => {
-
+  let smileyArr = [];
+  arr.forEach((string) => {
+    if (string.includes(':)')) {
+      smileyArr.push(string);
+    }
+  });
+  return smileyArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,7 +52,11 @@ For example, (123) 456-7890 returns 1234567890
 ------------------------------------------------------------------------------------------------ */
 
 const standardizePhoneNumbers = (arr) => {
-
+  let phoneNumber = [];
+  arr.forEach((string) => {
+    phoneNumber.push(string.replace(/[^0-9]/g, ''));
+  });
+  return phoneNumber;
 };
 
 /* ------------------------------------------------------------------------------------------------
