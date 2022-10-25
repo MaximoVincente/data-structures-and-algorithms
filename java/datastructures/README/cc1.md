@@ -34,7 +34,7 @@ public class Main {
   public static void reverseArray() {
         Integer[] intArray = {10,20,30,40,50,60,70,80,90};
 
-         for(int i=intArray.length-1;i>=0;i--)
+         for(int i=intArray.length-1; i>=0; i--)
          System.out.print(intArray[i] + "  ");
   }
 
