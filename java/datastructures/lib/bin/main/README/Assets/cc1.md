@@ -6,7 +6,7 @@ My task is to write a function called reverseArray which takes an array as an ar
 
 ## Visualization
 
-![Visualization](./Assets/wb1.png)
+![Visualization](wb1.png)
 
 Does this visualization describe the problem sufficiently?
 
