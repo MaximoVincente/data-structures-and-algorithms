@@ -6,7 +6,7 @@ My task is to write a function called insetShiftArray which takes in an array, a
 
 ## Visualization
 
-![Visualization](./wb2.png)
+![Visualization](./vis.png)
 
 Does this visualization describe the problem sufficiently?
 
