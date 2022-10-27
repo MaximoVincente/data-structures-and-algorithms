@@ -4,8 +4,8 @@
 
 ### Table of Contents - Data Structures
 
-- [reverseArray] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/28b877bcedb6b0ac7fd380ebc61f0494132cd719/java/datastructures/lib/src/main/java/README/Assets/cc1.md)
+- [reverseArray](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/28b877bcedb6b0ac7fd380ebc61f0494132cd719/java/datastructures/lib/src/main/java/README/Assets/cc1.md)
 
-- [Shift Array] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/cc2.md)
+- [Shift Array](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/cc2.md)
 
-- [Binary Search] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/2808906501c89cc5c5b68f5c275056412aa9241d/java/datastructures/lib/src/main/java/README/Assets/binarySearch.md)
+- [Binary Search](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/2808906501c89cc5c5b68f5c275056412aa9241d/java/datastructures/lib/src/main/java/README/Assets/binarySearch.md)
