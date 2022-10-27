@@ -1,23 +1,11 @@
 # Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## Language: `Java`
 
-## Repository Quick Tour and Usage
+### Table of Contents - Data Structures
 
-### 301 Code Challenges
+- [reverseArray] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/28b877bcedb6b0ac7fd380ebc61f0494132cd719/java/datastructures/lib/src/main/java/README/Assets/cc1.md)
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
+- [Shift Array] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/cc2.md)
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
-
-To run your tests
-
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
-
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+- [Binary Search] (https://github.com/MaximoVincente/data-structures-and-algorithms/blob/2808906501c89cc5c5b68f5c275056412aa9241d/java/datastructures/lib/src/main/java/README/Assets/binarySearch.md)
