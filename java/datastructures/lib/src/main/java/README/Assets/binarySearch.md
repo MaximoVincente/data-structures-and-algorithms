@@ -6,7 +6,7 @@ My task is to write a function called BinarySearch that takes to parameters: a s
 
 ## Visualization
 
-![Visualization](wb1.png)
+![Visualization](vis3.png)
 
 Does this visualization describe the problem sufficiently?
 
