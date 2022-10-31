@@ -6,7 +6,7 @@ My task is to write a function called BinarySearch that takes to parameters: a s
 
 ## Visualization
 
-![Visualization](wb1.png)
+![Visualization](vis3.png)
 
 Does this visualization describe the problem sufficiently?
 
@@ -24,8 +24,11 @@ Do you have any feedback before I start coding?
 ## Pseudocode
 
 - Algorithm binarySearch(int x[], int el)
-- Set list of array by using the Integer class
-- for the length of the array minus 1 is greater than 0, decrement by 1
-- print  reverse array
+- iterate through array starting at mid point (max + min) / 2
+- If x[mid] is less than el, then check right side mid point + 1
+- Else move back left to "mid point"
+- If min == el, then return the index of the array `return min`
+- else if max == el, then return the index of the array `return max`
+- else return -1
 
 ## Test
