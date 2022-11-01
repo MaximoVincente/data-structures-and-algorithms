@@ -59,6 +59,32 @@ public class LinkedListTest
     assertEquals(expected, actual);
   }
 
+  @Test void appendNode() {
+    LinkedListInsertion sut = new LinkedListInsertion();
+    sut.append(9);
+    int actual = sut.head.value;
+    int expected = 9;
+    assertTrue(actual == expected);
+
+  }
+
+  @Test void insertAfterTest() {
+    LinkedList sut = new LinkedList();
+    LinkedListInsertion sat = new LinkedListInsertion();
+    sut.insert(11);
+    sut.insert(13);
+    sat.append(9);
+    sat.insertAfter(null, 9);
+
+
+  }
+
+  @Test void insertBeforeTest() {
+    LinkedListInsertion sat = new LinkedListInsertion();
+    sat.append(9);
+//    sat.in(null, 38);
+  }
+
 }
 
 
