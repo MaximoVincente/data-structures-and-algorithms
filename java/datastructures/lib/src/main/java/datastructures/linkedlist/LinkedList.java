@@ -4,13 +4,14 @@ import datastructures.linkedlist.Node;
 public class LinkedList {
 
   Node head = null;
-  //  Node tail = null;  // not strictly required
+    Node tail = null;  // not strictly required
 
   public void insert(int value) {
    Node newNode = new Node(value);
    newNode.next = head;
    head = newNode;
   }
+
   public boolean includes(int value)
   {
     Node current = head;
