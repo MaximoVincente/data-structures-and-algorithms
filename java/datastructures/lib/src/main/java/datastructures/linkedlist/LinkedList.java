@@ -66,7 +66,9 @@ public class LinkedList {
       previous = current;
       current = temp;
     }
+
     LL.head = previous;
+
     return LL;
   }
 
@@ -122,5 +124,22 @@ public class LinkedList {
     value.next = newNode;
   }
 
+  public void linkedListZip(LinkedList b) {
+
+    Node currA = head, currB = b.head;
+    Node nextA, nextB;
+
+    while(currA != null && currB != null) {
+      nextA = currA.next;
+      nextB =currB.next;
+
+      currB.next = nextA;
+      currA.next = currB;
+
+      currA = nextA;
+      currB = nextB;
+    }
+    b.head = currB;
+  }
 
 }
