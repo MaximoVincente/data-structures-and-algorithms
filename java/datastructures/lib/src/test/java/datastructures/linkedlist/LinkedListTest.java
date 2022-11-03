@@ -149,4 +149,20 @@ public class LinkedListTest {
     System.out.println(sut.kthLinkedList(k3, 2));
     assertEquals(4, sut.kthLinkedList( k3, 2));
   }
+
+  @Test
+  void testLLZip() {
+    LinkedList zip1 = new LinkedList();
+    LinkedList zip2 = new LinkedList();
+
+    zip1.insert(1);
+    zip1.insert(3);
+    zip1.insert(2);
+
+    zip2.insert(5);
+    zip2.insert(9);
+    zip2.insert(4);
+
+    zip1.linkedListZip(zip2);
+  }
 }
