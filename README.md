@@ -10,4 +10,4 @@
 - [Binary Search](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/2808906501c89cc5c5b68f5c275056412aa9241d/java/datastructures/lib/src/main/java/README/Assets/binarySearch.md)
 - [linked lists insertions](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/linkedListInsertions.md)
 - [kth Linked List](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/kthLinkedList.md)
-
+- [Zip Linked List](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/zipLL.md)
