@@ -66,7 +66,7 @@ public class LinkedListTest {
 
   @Test
   void appendNode() {
-    LinkedListInsertion sut = new LinkedListInsertion();
+    LinkedList sut = new LinkedList();
     sut.append(9);
     int actual = sut.head.value;
     int expected = 9;
@@ -77,7 +77,7 @@ public class LinkedListTest {
   @Test
   void insertAfterTest() {
     LinkedList sut = new LinkedList();
-    LinkedListInsertion sat = new LinkedListInsertion();
+    LinkedList sat = new LinkedList();
     sut.insert(11);
     sut.insert(13);
     sat.append(9);
@@ -88,7 +88,7 @@ public class LinkedListTest {
 
   @Test
   void insertBeforeTest() {
-    LinkedListInsertion sat = new LinkedListInsertion();
+    LinkedList sat = new LinkedList();
     sat.append(9);
 //    sat.in(null, 38);
   }
