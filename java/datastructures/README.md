@@ -4,8 +4,6 @@
 
 ## Code Challenges
 
-### Challenge 01
+### Challenge 09
 
-Location: `codechallenges/linkedlist/LinkedListChallenges`
-
-Method: `linkedListChallenge06()`
+Used akkanben github as resource for enqueue.
