@@ -4,7 +4,6 @@ public class Queues {
 
   Node front = null;
   Node back = null;
-  int length = 0;
 
   public int length() {
     return length;
@@ -17,14 +16,14 @@ public class Queues {
     }else{
       back.next = newFront;
       back = newFront;
-      length++;
+
     }
   }
 
   public int dequeue (){
     int val = front.value;
     front = front.next;
-    length--;
+
     return val;
   }
 
@@ -33,7 +32,7 @@ public class Queues {
   }
 
   public boolean isEmpty(){
-    return length == 0;
+    return true;
   }
 
 
