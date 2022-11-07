@@ -17,7 +17,7 @@ public void push (int value) {
 
   Node entry= top;
   top = top.next;
-//  length --;
+
   return entry.value;
   }
 
