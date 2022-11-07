@@ -6,4 +6,3 @@
 
 ### Challenge 09
 
-Used akkanben github as resource for enqueue.
