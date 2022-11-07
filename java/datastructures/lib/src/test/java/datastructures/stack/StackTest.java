@@ -1,24 +1,23 @@
 package datastructures.stack;
 
 import org.junit.jupiter.api.Test;
-
 public class StackTest {
 
   @Test
   void testStackPush() {
     Stack sut = new Stack();
     sut.push(11);
-    assert(sut.length() == 1);
+    assert(sut.peek() == 11);
   }
 
-  @Test
-  void testStackPushMultiple() {
-    Stack sut = new Stack();
-    sut.push(11);
-    sut.push(12);
-    sut.push(13);
-    assert(sut.length() == 3);
-  }
+//  @Test
+//  void testStackPushMultiple() {
+//    Stack sut = new Stack();
+//    sut.push(11);
+//    sut.push(12);
+//    sut.push(13);
+//    assert(sut.; == 3);
+//  }
 
   @Test
   void testStackPop() {
@@ -26,7 +25,7 @@ public class StackTest {
     sut.push(9);
     sut.push(13);
     sut.pop();
-    assert (sut.length() == 1);
+    assert (sut.peek() == 9);
   }
 
   @Test
@@ -34,10 +33,10 @@ public class StackTest {
     Stack sut = new Stack();
     sut.push(9);
     sut.push(13);
-    while(sut.length > 0){
+    while(!sut.isEmpty()){
       sut.pop();
     }
-    assert (sut.length() == 0);
+    assert (sut.isEmpty());
   }
 
   @Test
