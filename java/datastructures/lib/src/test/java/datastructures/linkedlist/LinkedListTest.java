@@ -162,7 +162,6 @@ public class LinkedListTest {
     zip2.insert(5);
     zip2.insert(9);
     zip2.insert(4);
-
     zip1.linkedListZip(zip2);
   }
 }
