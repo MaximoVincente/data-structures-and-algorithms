@@ -16,7 +16,7 @@ public class StackTest {
 //    sut.push(11);
 //    sut.push(12);
 //    sut.push(13);
-//    assert(sut.; == 3);
+//    assert(sut);
 //  }
 
   @Test

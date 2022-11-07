@@ -5,13 +5,9 @@ public class Queues {
   Node front = null;
   Node back = null;
 
-  public int length() {
-    return length;
-  }
-
   public void enqueue (int value){
     Node newFront = new Node(value);
-    if(length == 0) {
+    if( isEmpty()) {
       front = newFront;
     }else{
       back.next = newFront;
