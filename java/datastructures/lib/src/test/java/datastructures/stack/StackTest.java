@@ -1,5 +1,6 @@
 package datastructures.stack;
 
+import datastructures.queues.StackQueuePseudo;
 import org.junit.jupiter.api.Test;
 public class StackTest {
 
@@ -51,6 +52,4 @@ public class StackTest {
     Stack sut = new Stack();
     assert (sut.isEmpty());
   }
-
-
 }
