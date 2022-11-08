@@ -4,8 +4,7 @@ import java.util.Stack;
 
 public class StackQueuePseudo {
 
-  Node front = null;
-  Node back = null;
+
 
   static Stack<Integer> stack1 = new Stack<>();
   static Stack<Integer> stack2 = new Stack<>();
@@ -28,10 +27,6 @@ public class StackQueuePseudo {
     stack1.pop();
 
     return top;
-  }
-
-  public int peek(){
-    return front.value;
   }
 
 }
