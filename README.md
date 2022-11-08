@@ -13,3 +13,4 @@
 
 ### Table of Contents - Code Challenges
 - [Zip Linked List](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/zipLL.md)
+- [Stack Queue Pseudo ](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/stackQueuePseudo.md)
