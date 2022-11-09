@@ -16,12 +16,11 @@ public class StackQueuePseudoTest {
 //    System.out.println(sut.stack2);
     assertEquals(1, sut.stack1.peek());
   }
+
   @Test
   void testStackQueuePseudoDequeue() {
     StackQueuePseudo sut = new StackQueuePseudo();
     sut.enqueue(1);
     assertEquals(1, sut.dequeue());
-
-
   }
 }
