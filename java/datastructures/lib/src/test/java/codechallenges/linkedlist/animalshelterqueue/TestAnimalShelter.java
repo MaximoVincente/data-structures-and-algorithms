@@ -18,7 +18,6 @@ public class TestAnimalShelter {
 
     assertEquals("dog", sut.shelter1.peek());
   }
-
   @Test
   void testStackQueuePseudoDequeue() {
     AnimalShelter sut = new AnimalShelter();

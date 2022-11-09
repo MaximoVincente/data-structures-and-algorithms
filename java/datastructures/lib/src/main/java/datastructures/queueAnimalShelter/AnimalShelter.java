@@ -35,5 +35,4 @@ static Stack<String> shelter2 = new Stack<>();
   public boolean isEmpty(){
     return true;
   }
-
 }
