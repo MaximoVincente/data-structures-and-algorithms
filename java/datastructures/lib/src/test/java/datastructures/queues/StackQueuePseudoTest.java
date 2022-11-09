@@ -13,8 +13,8 @@ public class StackQueuePseudoTest {
     StackQueuePseudo sut = new StackQueuePseudo();
     sut.enqueue(1);
     sut.enqueue(2);
-    System.out.println(sut.stack2);
-    assertEquals(2, sut.stack1.peek());
+//    System.out.println(sut.stack2);
+    assertEquals(1, sut.stack1.peek());
   }
 
   @Test
