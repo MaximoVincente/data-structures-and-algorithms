@@ -26,6 +26,8 @@ public class QueuesTest {
 //    Queues sut = new Queues();
 //    sut.enqueue(11);
 //    sut.enqueue(13);
+//    sut.enqueue(14);
+//    sut.enqueue(15);
 //    sut.dequeue();
 //    assert (sut.peek() == 11);
 //  }
