@@ -22,7 +22,7 @@ public class BalanceBrackets {
     for (int i = 0; i < expression.length(); i++) {
       char el = expression.charAt(i);
 
-      if (el == '(' || el == '[' || el == '{') {
+      if (el == '(' || el == '{' || el == '[') {
         stack.push(el);
         continue;
       }
