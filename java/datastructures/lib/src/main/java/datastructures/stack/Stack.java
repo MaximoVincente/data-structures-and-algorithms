@@ -21,6 +21,7 @@ public void push (int value) {
   return entry.value;
   }
 
+
   public int peek(){
 
   return top.value;
@@ -29,7 +30,5 @@ public void push (int value) {
   public boolean isEmpty(){
     return true;
   }
-
-
 
 }
