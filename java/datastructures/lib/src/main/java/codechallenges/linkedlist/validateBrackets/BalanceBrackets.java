@@ -2,7 +2,6 @@ package codechallenges.linkedlist.validateBrackets;
 
 import codechallenges.linkedlist.validateBrackets.Node;
 import datastructures.stack.Stack;
-
 import java.util.ArrayList;
 
 public class BalanceBrackets {
@@ -39,13 +38,11 @@ public class BalanceBrackets {
           if(validate == '{' || validate == '[')
             return false;
           break;
-
         case '}':
           validate = (char) stack.pop();
           if (validate == '(' || validate == '[')
             return false;
           break;
-
         case ']' :
           validate = (char) stack.pop();
           if (validate == '(' || validate == '{')
