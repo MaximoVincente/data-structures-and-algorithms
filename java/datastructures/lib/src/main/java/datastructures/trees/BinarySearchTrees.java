@@ -132,5 +132,4 @@ public class BinarySearchTrees {
       logic = rNode;
       return logic;
   }
-
 }
