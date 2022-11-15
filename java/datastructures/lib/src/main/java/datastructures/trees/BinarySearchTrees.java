@@ -111,4 +111,26 @@ public class BinarySearchTrees {
     }
     return false;
   }
+
+  public ArrayList findMaxValue() {
+    ArrayList values = new ArrayList();
+    findMaxValue(root, values);
+    return values;
+  }
+
+  public int findMaxValue(Node node, ArrayList values) {
+    // node -> left -> right
+    if (node == null) return 0;
+
+    int logic = (node.value);
+    int lNode = findMaxValue(node.left, values);
+    int rNode = findMaxValue(node.right, values);
+
+    if (lNode > logic)
+      logic = lNode;
+    if(rNode > logic)
+      logic = rNode;
+      return logic;
+  }
+
 }

@@ -101,4 +101,18 @@ public class testTreesDS {
     assertFalse(tree.contains(29));
   }
 
+  @Test
+  public void testFindMaxValue() {
+
+    BinarySearchTrees tree = new BinarySearchTrees();
+    tree.add(3);
+    tree.add(6);
+    tree.add(9);
+    tree.add(12);
+    tree.add(7);
+    tree.add(11);
+    ArrayList actualValues = tree.findMaxValue();
+    ArrayList maxValue = new ArrayList(Arrays.asList());
+    assertEquals(actualValues, maxValue);
+  }
 }
