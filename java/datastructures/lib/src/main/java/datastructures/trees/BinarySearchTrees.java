@@ -130,6 +130,6 @@ public class BinarySearchTrees {
       logic = lNode;
     if(rNode > logic)
       logic = rNode;
-      return logic;
+    return logic;
   }
 }
