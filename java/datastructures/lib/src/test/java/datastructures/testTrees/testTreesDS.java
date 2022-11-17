@@ -1,8 +1,6 @@
 package datastructures.testTrees;
 
-import datastructures.trees.BinarySearchTrees;
-import datastructures.trees.BinaryTree;
-import datastructures.trees.Node;
+import datastructures.trees.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -116,4 +114,22 @@ public class testTreesDS {
     assertEquals(actualValues, maxValue);
   }
 
+  @Test
+  void test_addchild_single() {
+    KaryNode<String> a = new KaryNode<>("test");
+    KaryNode<String> b = new KaryNode<>("test1");
+    KaryTree<String> sut = new KaryTree<>();
+    a.addChild(b);
+    a.addChild(a);
+    sut.root = a;
+    assertEquals(sut.root.childList.size(), 2);
+    assertTrue(sut.root.childList.contains(b));
+  }
+  @Test
+  void test_constructor() {
+    KaryNode<String> a = new KaryNode<>("Batman");
+    KaryTree<String> sut = new KaryTree<>();
+    sut.root = a;
+    assertEquals(sut.root.value, "Batman");
+  }
 }
