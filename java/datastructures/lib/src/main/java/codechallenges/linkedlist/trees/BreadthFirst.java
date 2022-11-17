@@ -26,4 +26,8 @@ public class BreadthFirst {
       }
     }
   }
+
+  public int fizzBuzz(){
+
+  }
 }
