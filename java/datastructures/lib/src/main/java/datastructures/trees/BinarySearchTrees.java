@@ -119,7 +119,7 @@ public class BinarySearchTrees {
   }
 
   public int findMaxValue(Node node, ArrayList values) {
-    // node -> left -> right
+
     if (node == null) return 0;
 
     int logic = (node.value);
