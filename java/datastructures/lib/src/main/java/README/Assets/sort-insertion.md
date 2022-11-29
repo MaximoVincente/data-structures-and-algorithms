@@ -21,40 +21,40 @@ SelectionSort(int[] arr)
 ## Trace
 
 - Sample Array
-![img_2.png](img_2.png)
+![img_2.png](s1.jpg)
 
 ### Pass 1
 Visualization:
 
-![img.png](img.png)
+![img.png](s2.jpg)
 
 
 ### Pass 2
 
 - Visualization
 
-![img_1.png](img_1.png)
+![img_1.png](s3.jpg)
 
 ### Pass 3
 
 - Visualization
 
-![img_3.png](img_3.png)
+![img_3.png](s4.jpg)
 
 ### Pass 4
 
 - Visualization
 
-![img_4.png](img_4.png)
+![img_4.png](s5.jpg)
 
 ### Pass 5
 
 - Visualization
 
-![img_5.png](img_5.png)
+![img_5.png](s6.jpg)
 
 ### Pass 6
 
 - Visualization
 
-![img_6.png](img_6.png)
+![img_6.png](s7.jpg)
