@@ -9,11 +9,9 @@ public class Merge {
     int subArrL = mid - left + 1;
     int subArrR = right - mid;
 
-    /* Create temp arrays */
     int Left[] = new int[subArrL];
     int Right[] = new int[subArrR];
 
-    /*Copy data to temp arrays*/
     for (int i = 0; i < subArrL; ++i)
       Left[i] = arr[left + i];
     for (int j = 0; j < subArrR; ++j)
