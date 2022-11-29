@@ -18,3 +18,4 @@
 - [Trees](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/trees.md)
 - [Breadth First Traversal](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/breadth-first-add-values.md)
 - [Insertion Sort](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/sort-insertion.md)
+- [Merge Sort](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/merge-sort.md)
