@@ -70,3 +70,8 @@ In pass 5 we start at position 4, and the next smallest number is 20 and is swap
 
 In pass 6 which is the final iteration (iteration 5), it will evaluate with itself and stay at its current position.
 At the next iteration (6) the loop will end, and out array will be sorted.
+
+## Big O
+
+- Time: O(n^2)
+- Space O(1)
