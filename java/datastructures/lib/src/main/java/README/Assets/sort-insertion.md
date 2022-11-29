@@ -1,4 +1,4 @@
-# Selection Sort
+# Selection Sort Blog
 
 ## Pseudocode
 
@@ -75,3 +75,44 @@ At the next iteration (6) the loop will end, and out array will be sorted.
 
 - Time: O(n^2)
 - Space O(1)
+
+## Code
+
+``` java
+
+public class Insertion {
+
+int[] sortedArray;
+
+public int[] selectionSort(int[] arr) {
+
+    for (int i = 1; i < arr.length; i++) {
+      int temp = arr[i];
+      int j = i - 1;
+
+      while (j >= 0 && arr[j] > temp){
+        arr[j + 1] = arr[j];
+        j = j - 1;
+      }
+      arr[j + 1] = temp;
+    }
+    return arr;
+}
+}
+
+```
+
+## Test
+
+``` java
+
+  @Test
+  void testSortInsertion() {
+    Insertion sut = new Insertion();
+    int[] arr = {6, 2, 20, 35, 17, 14};
+    int[] target = {2, 6, 14, 17, 20, 35};
+    sut.selectionSort(arr);
+    assertArrayEquals(arr, target);
+  }
+
+```
