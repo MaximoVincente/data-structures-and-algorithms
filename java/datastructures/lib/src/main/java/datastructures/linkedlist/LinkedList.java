@@ -1,19 +1,19 @@
 package datastructures.linkedlist;
 
 import datastructures.linkedlist.Node;
-public class LinkedList {
+public class LinkedList <T> {
 
-  Node head = null;
+  public Node <T> head = null;
   Node tail = null;  // not strictly required
 
-  public void insert(int value) {
-    Node newNode = new Node(value);
+  public void insert(T value) {
+    Node <T> newNode = new Node<>(value);
     newNode.next = head;
     head = newNode;
   }
 
-  public boolean includes(int value) {
-    Node current = head;
+  public boolean includes(T value) {
+    Node<T> current = head;
     while (current != null) {
       if (current.value == value)
         return true;
@@ -25,7 +25,7 @@ public class LinkedList {
   @Override
   public String toString() {
     String parts = "";
-    Node current = head;
+    Node<T> current = head;
 
     while (current != null) {
       parts += "{ " + current.value + " } " + "-> ";
@@ -38,10 +38,10 @@ public class LinkedList {
   }
 
 
-  public int kthLinkedList(Node head, int k) {
+  public T kthLinkedList(Node head, int k) {
 
-    Node current = head;
-    Node temp = head;
+    Node<T> current = head;
+    Node<T> temp = head;
 
     for (int i = 0; i < k; i++) {
       temp = temp.next;
@@ -73,7 +73,7 @@ public class LinkedList {
   }
 
 
-  public void append(int value) {
+  public void append(T value) {
     Node newNode = new Node(value);
     newNode.next = head;
     head = newNode;
