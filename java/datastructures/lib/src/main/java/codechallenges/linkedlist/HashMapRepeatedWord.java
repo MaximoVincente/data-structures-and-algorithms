@@ -1,5 +1,7 @@
-package datastructures.hashmap;
+package codechallenges.linkedlist;
 
+
+import datastructures.hashmap.HashMap;
 
 public class HashMapRepeatedWord {
 

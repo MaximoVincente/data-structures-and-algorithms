@@ -2,7 +2,7 @@ package datastructures.testHashTable;
 
 
 import datastructures.hashmap.HashMap;
-import datastructures.hashmap.HashMapRepeatedWord;
+import codechallenges.linkedlist.HashMapRepeatedWord;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
