@@ -17,6 +17,6 @@ public class HashMapRepeatedWord {
         current = "";
       }
     }
-    return "";
+    return "No repeated words";
   }
 }
