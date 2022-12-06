@@ -2,6 +2,7 @@ package datastructures.testHashTable;
 
 
 import datastructures.hashmap.HashMap;
+import datastructures.hashmap.HashMapRepeatedWord;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -62,6 +63,13 @@ public class TestHashMap {
   void testHashKeyInRange() {
     HashMap<String, Integer> sut = new HashMap<>(1024);
 
+  }
+
+  @Test
+  void testHashmapRepeatedWords() {
+    HashMapRepeatedWord sut = new HashMapRepeatedWord();
+    String word = "Wally went on an adventure to find his favorite treat, blueberries. We found a blueberry tree at the neighbors farm, and started eating the ones in the ground.";
+    assertEquals(sut.repeatedWord(word), "the");
   }
 
 }
