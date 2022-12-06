@@ -72,5 +72,18 @@ public class TestHashMap {
     assertEquals(sut.repeatedWord(word), "the");
   }
 
+  @Test
+  void testHashmapRepeatedWords_if_empty_string() {
+    HashMapRepeatedWord sut = new HashMapRepeatedWord();
+    String word = "";
+    assertEquals(sut.repeatedWord(word), "");
+  }
+
+  @Test
+  void testHashmapRepeatedWords_if_there_are_no_matches() {
+    HashMapRepeatedWord sut = new HashMapRepeatedWord();
+    String word = "My name is Maximo";
+    assertEquals(sut.repeatedWord(word), "");
+  }
 }
 
