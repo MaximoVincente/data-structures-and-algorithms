@@ -13,6 +13,8 @@
 
 ## Visualization
 
+![Visualization](tree-intersection.jpeg)
+
 ## Algorithm
 
 - Use Hashmap to hold the integer values of the two binary trees.
@@ -50,35 +52,3 @@
     addToHashMap(root.right, hashmap);
   }
   ```
-
-  ## Test
-
-  ```java
-    @Test
-  void example() {
-    TreeIntersection sut = new TreeIntersection();
-    BinaryTree tree1 = new BinaryTree();
-    new Node(230);
-    new Node(180);
-    new Node(280);
-    new Node(3);
-    new Node(194);
-    new Node(120);
-    new Node(190);
-
-    BinaryTree tree2 = new BinaryTree();
-    new Node(230);
-    new Node(180);
-    new Node(280);
-    new Node(3);
-    new Node(194);
-    new Node(120);
-    new Node(190);
-
-    ArrayList<Integer> testList = sut.treeIntersection(tree1, tree2);
-    Collections.sort(testList);
-    System.out.println(testList.toString());
-    assertEquals(testList.toString(), "[230, 180, 280, 3, 194, 120, 190]");
-  }
-  ```
-
