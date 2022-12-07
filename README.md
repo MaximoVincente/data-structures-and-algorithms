@@ -21,3 +21,4 @@
 - [Merge Sort](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/merge-sort.md)
 - [Hash Table](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/hashmap.md)
 - [Hashmap Repeated Word](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/hashmap-repeated-words.md)
+- [Tree Intersection](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/tree-intersection.md)
