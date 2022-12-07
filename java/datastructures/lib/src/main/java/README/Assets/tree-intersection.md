@@ -7,26 +7,26 @@
 - Using your Hashmap implementation as a part of your algorithm, return a set of values found in both trees.
 
 ## Input/Output
-- Input: Binary Tree 1, and Binary Tree 2 
-- Output  
+- Input: Binary Tree 1, and Binary Tree 2
+- Output
 - Arraylist of common values
 
 ## Visualization
 
 ## Algorithm
 
-- Use Hashmap to hold the integer values of the two binary trees
-- Use an arraylist to store the output values
-- Traverse both trees checking for true value
-- If true the return to the Arraylist
-- Return common values
+- Use Hashmap to hold the integer values of the two binary trees.
+- Use an arraylist to store the output values.
+- Traverse both trees checking for true value.
+- If true the return to the Arraylist.
+- Return common values.
 
 ## Big O
 
 - Time: O(n) Because of the iterations n times in the for each loop.
-- Space: O(n) We use an Array list to store the output, and the space used when iterating the trees. 
+- Space: O(n) We use an Array list to store the output, and the space used when iterating the trees.
 
-## Code 
+## Code
 
 ``` java
   public ArrayList<Integer> treeIntersection(BinaryTree tree1, BinaryTree tree2) {
@@ -50,9 +50,9 @@
     addToHashMap(root.right, hashmap);
   }
   ```
-  
+
   ## Test
-  
+
   ```java
     @Test
   void example() {
@@ -81,5 +81,4 @@
     assertEquals(testList.toString(), "[230, 180, 280, 3, 194, 120, 190]");
   }
   ```
-  
-  
+
