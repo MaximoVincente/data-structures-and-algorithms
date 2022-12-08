@@ -5,15 +5,14 @@ import java.util.HashMap;
 import java.util.List;
 
 public class LeftJoin {
-
-  public static List<String> leftJoin(HashMap h1, HashMap h2){
+  public static List<String> leftJoin(HashMap hashtable1, HashMap hashtable2){
 
     List<String> list = new ArrayList<>();
-    for(Object k : h1.keySet()){
-      if(h1.containsKey(k)){
-        list.add(k +  ": " + h1.get(k)+ ", " + h2.get(k));
+    for(Object k : hashtable1.keySet()){
+      if(hashtable1.containsKey(k)){
+        list.add(k +  ": " + hashtable1.get(k)+ ", " + hashtable2.get(k));
       } else{
-        list.add(k + ": " + h1.get(k) + ", " + null);
+        list.add(k + ": " + hashtable1.get(k) + ", " + null);
       }
     }
     return list;
