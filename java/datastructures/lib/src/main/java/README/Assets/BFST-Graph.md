@@ -6,10 +6,10 @@ A graph is a non-linear data structure that can be looked at as a collection of 
 
 Write the following method for the Graph class:
 
-breadth first
-Arguments: Node
-Return: A collection of nodes in the order they were visited.
-Display the collection
+- breadth first
+- Arguments: Node
+- Return: A collection of nodes in the order they were visited.
+- Display the collection
 
 ## Visualization
 
