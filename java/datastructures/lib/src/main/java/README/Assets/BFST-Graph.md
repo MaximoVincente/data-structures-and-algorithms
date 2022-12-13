@@ -17,5 +17,5 @@ Display the collection
 
 ## Approach & Efficiency
 
-Time: O(n) We visit each node from left to right n times.
-Space: O(n) Based on the size of the queue or biggest space.
+- Time: O(n) We visit each node from left to right n times.
+- Space: O(n) Based on the size of the queue or biggest space.
