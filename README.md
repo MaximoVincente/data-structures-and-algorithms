@@ -25,5 +25,5 @@
 - [Tree Intersection](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/tree-intersection.md)
 - [Hashmap Left Join](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/left-join.md)
 - [Graph Breadth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/BFST-Graph.md)
--[Graph Depth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/DFST-Graph.md)
+- [Graph Depth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/DFST-Graph.md)
 
