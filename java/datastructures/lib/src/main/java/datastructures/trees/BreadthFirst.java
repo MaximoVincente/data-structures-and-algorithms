@@ -1,11 +1,12 @@
 package codechallenges.linkedlist.trees;
 
+import com.sun.source.tree.Tree;
 import datastructures.trees.KaryNode;
 import datastructures.trees.Node;
 import datastructures.trees.BinaryTree;
 
 
-
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -28,5 +29,23 @@ public class BreadthFirst <T extends Comparable<? super T>>{
 //      }
 //      return outputList.toArray();
 //    }
+
+//  public static Tree search(int value, Tree root) {
+//    Queue<Tree> queue = new ArrayDeque<>();
+//    queue.add(root);
+//
+//    while(!queue.isEmpty()) {
+//      Tree currentNode = queue.remove();
+//
+//      if (currentNode.getValue() == value) {
+//        return currentNode;
+//      }
+//      else {
+//        queue.addAll(currentNode.getChildren());
+//      }
+//    }
+//
+//    return null;
+//  }
 
 }

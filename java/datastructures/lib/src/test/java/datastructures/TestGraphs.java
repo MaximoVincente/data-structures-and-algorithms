@@ -1,6 +1,7 @@
 package datastructures;
 
 import datastructures.graphs.BFTraveral;
+import datastructures.graphs.DFTraversalGraph;
 import datastructures.graphs.Graphs;
 import datastructures.graphs.Vertex;
 import org.junit.jupiter.api.Test;
@@ -65,7 +66,7 @@ public class TestGraphs {
   }
 
   @Test
-  void breadth_example_pandora_start() {
+  void breadthTest() {
   BFTraveral sut = new BFTraveral(6);
     sut.addEdge(0, 1);
     sut.addEdge(0, 3);
@@ -80,5 +81,23 @@ public class TestGraphs {
     sut.addEdge(5, 4);
     sut.addEdge(5, 3);
   assertEquals(12, 12);
+  }
+
+  @Test
+  void testGraphDFT() {
+    DFTraversalGraph sut = new DFTraversalGraph(6);
+    sut.addEdge(0, 1);
+    sut.addEdge(0, 3);
+    sut.addEdge(0, 4);
+    sut.addEdge(4, 5);
+    sut.addEdge(3, 5);
+    sut.addEdge(1, 2);
+    sut.addEdge(1, 0);
+    sut.addEdge(2, 1);
+    sut.addEdge(4, 1);
+    sut.addEdge(3, 1);
+    sut.addEdge(5, 4);
+    sut.addEdge(5, 3);
+    assertEquals(12, 12);
   }
 }
