@@ -10,7 +10,6 @@
 - [kth Linked List](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/kthLinkedList.md)
 - [Binary Search Tree "Find Max Value"](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/binary-search-tree-maxValue.md)
 - [Graphs](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/graph.md)
-- [Graph Breadth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/BFST-Graph.md)
 
 
 ### Table of Contents - Code Challenges
@@ -25,3 +24,5 @@
 - [Hashmap Repeated Word](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/hashmap-repeated-words.md)
 - [Tree Intersection](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/tree-intersection.md)
 - [Hashmap Left Join](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/left-join.md)
+- [Graph Breadth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/BFST-Graph.md)
+-[Graph Depth First](https://github.com/MaximoVincente/data-structures-and-algorithms/blob/main/java/datastructures/lib/src/main/java/README/Assets/DFST-Graph.md)
